@@ -1,8 +1,4 @@
-/* Afazeres:
-fazer um read.md bonitinho
-*/
-
-package PedroEspetos;
+package Lab1;
 
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -84,7 +80,7 @@ public class Main {
                     int id = leitor.nextInt();
                     leitor.nextLine();
 
-                    id--;   // Como index começa em 0, e o id do pedido começa em 1, logo faço essa correção para remover baseado no index
+                    id--;   // Como index começa em 0, e o id do pedido começa em 1, logo faço essa correção para remover da lista baseado no index
                     pedidos.remove(id);
 
                     id++;   // Desfaço a correção de variável para imprimir
