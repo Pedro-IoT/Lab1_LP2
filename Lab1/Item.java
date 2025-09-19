@@ -1,4 +1,4 @@
-package PedroEspetos;
+package Lab1;
 
 public class Item {
     private double preco;
