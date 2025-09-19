@@ -40,8 +40,8 @@ public class Pedido {
         double valorTotal = 0;
         for (Item item : itens) {
             System.out.println("- " + item.getNome() + " R$ " + item.getPreco() + " * " + item.getQuantidade());
-            valorTotal += item.getPreco() * item.getQuantidade(); 
-    }
+            valorTotal += item.getPreco() * item.getQuantidade();    // Mudei um pouco a lógica de impressão pra abranger uma forma de adicionar vários itens de uma vez
+    }                                                                // Usando o fator de quantidade
         System.out.println("----------------------------------------");
         System.out.println("Total: R$ " + valorTotal);
         System.out.println("========================================");
